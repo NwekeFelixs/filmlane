@@ -9,6 +9,22 @@ import movie5 from '../img/movie-5.png'
 import movie6 from '../img/movie-6.png'
 import movie7 from '../img/movie-7.png'
 import movie8 from '../img/movie-8.png'
+import redNotice from '../img/red-notice.jpg'
+import venom from '../img/venom.jpg';
+import panther from '../img/panther.jpg'
+import nineteen from '../img/1917.jpg'
+import casino from '../img/casino-royale.jpg'
+import darkNight from '../img/dark-knight.jpg'
+import dune from '../img/dune.jpg'
+import endGame from '../img/endgame.jpg'
+import eternals from '../img/eternals.jpg'
+import lotr from '../img/LOTR.jpg'
+import matrix from '../img/matrix.jpg'
+import gladiator from '../img/gladiator.jpg'
+import shangChi from '../img/shang-chi.jpg'
+import spiderMan from '../img/spider-men.jpg'
+import saving from '../img/saving-private-ryan.jpg'
+import interstaller from '../img/interstaller.jpg'
 
 const TopRated = () => {
   const topRatedMovies = [
@@ -76,6 +92,135 @@ const TopRated = () => {
       rating: "7.0",
       image: movie8,
     },
+
+    {
+      title: 'Red Notice',
+      image: redNotice,
+     quality: "HD",
+      duration: "131 min",
+      year: '2021',
+      rating: '6.4',
+    },
+    {
+      title: 'Spider-Man: Homecoming',
+      image: spiderMan,
+      quality: "4K",
+      duration: "176 min",
+      year: '2017',
+      rating: '7.4',
+    },
+    {
+      title: 'Saving Private Ryan',
+      image: saving,
+      quality: "4K",
+      duration: "176 min",
+      year: '1998',
+      rating: '8.6',
+    },
+    {
+      title: 'Interstellar',
+      image: interstaller,
+      quality: "4K",
+      duration: "176 min",
+      year: '2014',
+      rating: '8.6',
+    },
+    {
+      title: 'Casino Royale',
+      image: casino,
+      quality: "HD",
+      duration: "131 min",
+      year: '2017',
+      rating: '7.4',
+    },
+    {
+      title: 'The Matrix Resurrections',
+      image: matrix,
+      genre: 'Sci-fi/Action',
+      year: '2021',
+      rating: 'N/A',
+    },
+    {
+      title: 'Eternals',
+      image: eternals,
+      quality: "HD",
+      duration: "131 min",
+      year: '2021',
+      rating: '6.8',
+    },
+    {
+      title: 'Dune',
+      image: dune,
+      quality: "HD",
+      duration: "131 min",
+      year: '2021',
+      rating: '8.2',
+    },
+    {
+      title: '1917',
+      image: nineteen,
+      quality: "HD",
+      duration: "131 min",
+      year: '2019',
+      rating: '8.3',
+    },
+    {
+      title: 'Shang-Chi and The Legend of The Ten Rings',
+      image: shangChi,
+      quality: "HD",
+      duration: "131 min",
+      year: '2021',
+      rating: '7.6',
+    },
+    {
+      title: 'The Dark Knight',
+      image: darkNight,
+      quality: "HD",
+      duration: "131 min",
+      year: '2008',
+      rating: '9.0',
+    },
+    {
+      title: 'Black Panther',
+      image: panther,
+      quality: "HD",
+      duration: "131 min",
+      year: '2018',
+      rating: '7.3',
+    },
+    {
+      title: 'Venom',
+      image: venom,
+      quality: "HD",
+      duration: "131 min",
+      year: '2018',
+      rating: '6.7',
+    },
+    {
+      title: 'Lord Of The Rings: Return Of The King',
+      image: lotr,
+      quality: "HD",
+      duration: "192 min",
+      year: '2003',
+      rating: '8.9',
+    },
+    {
+      title: 'Gladiator',
+      image: gladiator,
+      quality: "HD",
+      duration: "131 min",
+      year: '2000',
+      rating: '8.5',
+    },
+    {
+      title: 'Avengers: Endgame',
+      image: endGame,
+      quality: "HD",
+      duration: "131 min",
+      year: '2019',
+      rating: '8.4',
+    },
+    
   ];
 
   return (
